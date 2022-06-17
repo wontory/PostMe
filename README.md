@@ -5,7 +5,7 @@ PostMe for Instagram: Sticky Note Image Generator
 
 <br>
 
-[Link](https://wontory.github.io/PostMe-for-Instagram/postme)
+[Link](https://wontory.github.io/PostMe)
 
 <br>
 
