@@ -23,7 +23,7 @@ h1 { font-size: 4em; margin: 0 auto; text-align: center;}
 #title {
     display: flex; align-items: flex-end;
     justify-content: center;
-    width: 95%; height: 75%;
+    width: 95%; height: 70%;
     margin: 0 auto; text-align: center;
 }
 #title input[type="text"] {
@@ -36,7 +36,7 @@ h1 { font-size: 4em; margin: 0 auto; text-align: center;}
 #date {
     display: flex;
     flex-direction: row; align-items: center;
-    width: 90%; height: 25%; margin: 0 auto;
+    width: 90%; height: 30%; margin: 0 auto;
     color: rgb(237, 209, 180);
     font-size: 20px;
 }
