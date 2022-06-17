@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostMe for Instagram</title>
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="html2canvas.js"></script>
+    <script src="capture.js"></script>
+</head>
+<body>
+    <header><h1>PostMe for Instagram</h1></header>
+    <div id="capture_area">
+        <div id="sticky_note">
+            <div id="sticky_note_top">
+                <div id="title"><input type="text" value="Post Me"></div>
+                <div id="date"><div class=date>date.&nbsp;</div><input type="date"></div>
+            </div>
+            <div id="sticky_note_bottom">
+                <table id="todolist">
+                    <tr><td><input type="checkbox" id="cb1" checked><label for="cb1"></label></td>
+                        <td><input type="text" id="t1" value="List Item 1"><label for="t1"></label></td></tr>
+                    <tr><td><input type="checkbox" id="cb2"><label for="cb2"></label></td>
+                        <td><input type="text" id="t2" value="List Item 2"><label for="t2"></label></td></tr>
+                    <tr><td><input type="checkbox" id="cb3"><label for="cb3"></label></td>
+                        <td><input type="text" id="t3" value="List Item 3"><label for="t3"></label></td></tr>
+                    <tr><td><input type="checkbox" id="cb4"><label for="cb4"></label></td>
+                        <td><input type="text" id="t4"><label for="t4"></label></td></tr>
+                    <tr><td><input type="checkbox" id="cb5"><label for="cb5"></label></td>
+                        <td><input type="text" id="t5"><label for="t5"></label></td></tr>
+                    <tr><td><input type="checkbox" id="cb6"><label for="cb6"></label></td>
+                        <td><input type="text" id="t6"><label for="t6"></label></td></tr>
+                    <tr><td><input type="checkbox" id="cb7"><label for="cb7"></label></td>
+                        <td><input type="text" id="t7"><label for="t7"></label></td></tr>
+                    <tr><td><input type="checkbox" id="cb8"><label for="cb8"></label></td>
+                        <td><input type="text" id="t8"><label for="t8"></label></td></tr>
+                    <tr><td><input type="checkbox" id="cb9"><label for="cb9"></label></td>
+                        <td><input type="text" id="t9"><label for="t9"></label></td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="buttons">
+        <input type="button" id="capture" value="Save Image">
+    </div>
+</body>
+</html>

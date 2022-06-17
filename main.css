@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+* { font-family: 'Hi Melody', cursive; }
+
+header { padding-top: 50px; }
+h1 { font-size: 4em; margin: 0 auto; text-align: center;}
+
+#capture_area {
+    display: flex;
+    align-items: center; justify-content: center;
+    width: 650px; height: 650px;
+    margin: 0 auto;
+}
+
+#sticky_note {
+    width: 512px; height: 512px;
+    box-shadow: 5px 5px 10px gray;
+}
+#sticky_note_top {
+    width: 100%; height: 25%;
+    background: rgb(93, 93, 86);
+}
+#title {
+    display: flex; align-items: flex-end;
+    justify-content: center;
+    width: 95%; height: 75%;
+    margin: 0 auto; text-align: center;
+}
+#title input[type="text"] {
+    width: 95%;
+    border: none;
+    background: none;
+    text-align: center; font-size: 50px;
+    color: rgb(237, 209, 180);
+}
+#date {
+    display: flex;
+    flex-direction: row; align-items: center;
+    width: 90%; height: 25%; margin: 0 auto;
+    color: rgb(237, 209, 180);
+    font-size: 20px;
+}
+#date input[type="date"] { border: none; background: none; color: rgb(237, 209, 180); font-size: 20px; }
+#date input[type="date"]::-webkit-inner-spin-button, input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none; -webkit-appearance: none;
+}
+.date {
+    display: inline-block;
+}
+
+#sticky_note_bottom {
+    width: 100%; height: 75%;
+    background: rgb(237, 209, 180);
+}
+#todolist {
+    width: 100%; height: 100%;
+    border-collapse: collapse;
+}
+#todolist tr { border-bottom: 1px solid rgb(93, 93, 86); }
+#todolist tr:last-child { border-bottom: none; }
+#todolist tr td:first-child { width: 13%; text-align: center;}
+
+#todolist input[type="checkbox"] + label {
+    position: relative;
+	display: inline-block;
+	width: 13px; height: 13px;
+    background-color: rgb(93, 93, 86); 
+    cursor: pointer;
+}
+#todolist input[type="checkbox"]:checked + label::after {
+    position: absolute;
+    width: 13px; height: 13px;
+    left: 0; top: 0;
+    content:'✔'; font-size: 10px; color: rgb(237, 209, 180);
+    text-align: center;
+}
+#todolist input[type="checkbox"] { display: none; }
+#todolist input[type="text"] {
+    width: 93%; height: 70%;
+    border: none; background: none;
+    font-size: 25px; color: rgb(93, 93, 86);
+}
+
+#buttons { text-align: center; }
+input[type="button"] {
+    width: 160px; height: 50px;
+    font-size: 2em;
+}
