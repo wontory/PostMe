@@ -6,13 +6,15 @@ header { padding-top: 50px; }
 h1 { font-size: 4em; margin: 0 auto; text-align: center;}
 
 #capture_area {
-    display: flex;
-    align-items: center; justify-content: center;
+    position: relative;
     width: 650px; height: 650px;
     margin: 0 auto;
 }
 
 #sticky_note {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
     width: 512px; height: 512px;
     box-shadow: 5px 5px 10px gray;
 }
@@ -26,8 +28,7 @@ h1 { font-size: 4em; margin: 0 auto; text-align: center;}
     margin: 0 auto; text-align: center;
 }
 #title input[type="text"] {
-    width: 90%;
-    border: none;
+    width: 90%; border: none;
     background: none; padding-top: 5%;
     text-align: center; font-size: 50px;
     color: rgb(237, 209, 180);
