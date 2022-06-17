@@ -4,6 +4,7 @@
 
 header { padding-top: 50px; }
 h1 { font-size: 4em; margin: 0 auto; text-align: center;}
+span { display: block; font-size: 1.5em; margin: 0 auto; text-align: center;}
 
 #capture_area {
     position: relative;
