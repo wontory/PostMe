@@ -21,21 +21,18 @@ h1 { font-size: 4em; margin: 0 auto; text-align: center;}
     background: rgb(93, 93, 86);
 }
 #title {
-    display: flex; align-items: flex-end;
     justify-content: center;
     width: 95%; height: 70%;
     margin: 0 auto; text-align: center;
 }
 #title input[type="text"] {
     width: 95%;
-    border: none;
+    border: none; margin-top: 6%;
     background: none;
     text-align: center; font-size: 50px;
     color: rgb(237, 209, 180);
 }
 #date {
-    display: flex;
-    flex-direction: row; align-items: center;
     width: 90%; height: 30%; margin: 0 auto;
     color: rgb(237, 209, 180);
     font-size: 20px;
