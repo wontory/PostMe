@@ -94,7 +94,7 @@ input[type="button"] {
     h1 { font-size: 2em; margin: 0 auto; text-align: center;}
     span { display: block; font-size: 1em; margin: 0 auto; text-align: center;}
     #capture_area { width: 350px; height: 350px; }
-    #title input[type="text"] { width: 250px; height: 20px; font-size: 25px; }
+    #title input[type="text"] { width: 250px; height: 30px; font-size: 25px; }
     #date { font-size: 12px; }
     #date input[type="date"] { font-size: 12px; }
     #todolist input[type="checkbox"] + label { width: 10px; height: 10px; }
