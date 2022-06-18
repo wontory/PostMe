@@ -99,7 +99,7 @@ input[type="button"] {
     #date input[type="date"] { font-size: 12px; }
     #todolist input[type="checkbox"] + label { width: 10px; height: 10px; }
     #todolist input[type="checkbox"]:checked + label::after { width: 10px; height: 10px; font-size: 10px; }
-    #todolist input[type="text"] { font-size: 13px; }
+    #todolist input[type="text"] { font-size: 10px; }
     input[type="button"] {
         width: 80px; height: 30px;
         font-size: 0.8em;
